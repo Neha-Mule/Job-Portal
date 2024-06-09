@@ -1,0 +1,136 @@
+.contactform{
+    font: 50% ;
+    max-width: 400px;
+    margin: 1px auto;
+    padding: 10px;
+    border: 1px solid white;  
+}
+
+#formh1{
+    border: 1px solid;
+    text-align:center;
+    background-color: rgb(217, 107, 221);
+    text-transform: uppercase;
+    font-family: 'Segoe UI';
+}
+
+.contactform input[type="text"],
+.contactform input[type="tel"],
+.contactform input[type="number"],
+.contactform textarea,
+.contactform select{
+
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    padding: 5px;
+    width: 100%;
+    margin: 3% auto;
+    color: #555;
+    font-family: 'Segoe UI';
+}
+
+.contactform input[type="text"]:focus,
+.contactform input[type="tel"]:focus
+{
+    box-shadow: 0 0 5px black;
+    padding: 2%;
+    border: 1px solid black;
+}
+
+.contactform input[type="submit"]{
+    background: rgb(193, 88, 202);
+    width: 100%;
+    padding: 3%;
+    border-bottom-style: 2px solid rgb(182, 126, 229);
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.contactform input[type="submit"]:hover{
+    background-color: palevioletred;
+}
+
+
+/* end contact form */
+
+/* login page */
+.contactform{
+    font: 50% ;
+    max-width: 400px;
+    margin: 1px auto;
+    padding: 10px;
+    border: 1px solid white;  
+}
+
+#formh2{
+    border: 1px solid;
+    text-align:center;
+    background-color: rgb(205, 84, 221);
+    text-transform: uppercase;
+    font-family: 'Segoe UI';
+}
+
+.contactform input[type="email"],
+.contactform input[type="password"],
+.contactform textarea,
+.contactform select{
+
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    margin: 3% auto;
+    color: #555;
+    font-family: 'Segoe UI';
+}
+
+.contactform input[type="text"]:focus,
+.contactform input[type="tel"]:focus
+{
+    box-shadow: 0 0 5px black;
+    padding: 2%;
+    border: 1px solid black;
+}
+
+.contactform input[type="submit"]{
+    background: rgb(196, 93, 222);
+    width: 100%;
+    padding: 3%;
+    border-bottom-style: 2px solid rgb(171, 113, 219);
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.contactform input[type="submit"]:hover{
+    background-color: rgb(167, 69, 205);
+}
+
+
+#home{
+    margin-top: 100px;
+    color: black;
+    border: 2px dotted black;
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin-left: 3%;
+}
+#home:hover{
+    color:#8d0909;
+    font-size: 17px;
+}
+
+.last{
+    margin: 25px;
+    text-align: center;
+    color: black;
+    border: 3px solid black; 
+}
